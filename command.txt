@@ -1,0 +1,11 @@
+#add files
+git commit -m "adding files"
+
+#create branches
+git branch feature1
+git branch feature2
+git push --set-upstream origin feature1
+git push --set-upstream origin feature2
+
+#switch to featur1 branch
+git switch feature1
